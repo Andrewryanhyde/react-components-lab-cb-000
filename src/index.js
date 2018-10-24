@@ -15,7 +15,7 @@ const muriel = React.createElement('li', {}, "Muriel");
 const list = React.createElement("ul", {}, [agnes, muriel]);
 
 // Define these exported classes
-export class OlderCoaster extends Component {
+export class OlderCoaster extends React.Component {
   render() {
     React.createElement('div', {className: 'oldercoaster'}, [gran, p, list]);
   }
