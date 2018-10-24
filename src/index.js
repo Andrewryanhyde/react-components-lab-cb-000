@@ -10,8 +10,8 @@ const BUTCHER_PRODUCTS = [
 
 const gran = React.createElement("p", {}, "Two grannies having the time of their life!");
 const p = React.createElement("p", {}, "Passegers:");
-const agnes = React.createElement("li", {}, "Agnes");
-const muriel = React.createElement("li", {}, "Muriel");
+const agnes = React.createElement('li', {}, "Agnes");
+const muriel = React.createElement('li', {}, "Muriel");
 const list = React.createElement("ul", {}, [agnes, muriel]);
 
 // Define these exported classes
