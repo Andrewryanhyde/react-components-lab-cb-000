@@ -8,16 +8,16 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
-const gran = React.createElement('p', {}, "Two grannies having the time of their life!")
-const p = React.createElement('p', {}, "Passegers:")
-const agnes = React.createElement('li', {}, "Agnes")
-const muriel = React.createElement('li', {}, "Muriel")
-const list = React.createElement('ul', {}, [agnes, muriel])
+const gran = React.createElement('p', {}, "Two grannies having the time of their life!");
+const p = React.createElement('p', {}, "Passegers:");
+const agnes = React.createElement('li', {}, "Agnes");
+const muriel = React.createElement('li', {}, "Muriel");
+const list = React.createElement('ul', {}, [agnes, muriel]);
 
 // Define these exported classes
 export class OlderCoaster extends Component {
   render() {
-    React.createElement('div', { className: 'oldercoaster'}, [gran, p, list]);
+    React.createElement('div', {className: 'oldercoaster'}, [gran, p, list]);
   }
 };
 
