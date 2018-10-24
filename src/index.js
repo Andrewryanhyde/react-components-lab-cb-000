@@ -9,7 +9,7 @@ const BUTCHER_PRODUCTS = [
 ]
 
 const gran = React.createElement("p", {}, "Two grannies having the time of their life!");
-const p = React.createElement("p", {}, "Passegers:");
+const p = React.createElement("p", {}, "Passengers:");
 const agnes = React.createElement('li', {}, "Agnes");
 const muriel = React.createElement('li', {}, "Muriel");
 const list = React.createElement("ul", {}, [agnes, muriel]);
