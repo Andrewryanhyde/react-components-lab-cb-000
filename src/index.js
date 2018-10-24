@@ -17,7 +17,7 @@ const list = React.createElement("ul", {}, [agnes, muriel]);
 // Define these exported classes
 export class OlderCoaster extends React.Component {
   render() {
-    React.createElement('div', {className: 'oldercoaster'}, [gran, p, list]);
+    return React.createElement('div', {className: 'oldercoaster'}, [gran, p, list]);
   }
 };
 
